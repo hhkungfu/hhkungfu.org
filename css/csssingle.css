@@ -1,0 +1,81 @@
+.article-meta{margin:5px 0 3px 0;line-height:40px;display: none;}
+.article-author a{display:inline-block;font-weight:500;line-height:30px}
+.article-meta span:not(.article-comment):not(.share-icon):not(.font-size){display:inline-block;padding-right:8px}
+.article-published,.article-header .comment-icon{font-size:90%}
+.article-published{cursor:default}
+.font-size-increase{margin-left:auto}.font-size-increase>.font-size{display:inline-block;width:30px;text-align:center}
+.font-size-increase>.font-size.large{font-size:160%;padding:0}
+.article-title{margin:0;line-height:normal;font-size:1.8em;background:-webkit-linear-gradient(left,#18a15f,#013fa7);-webkit-background-clip:text;-webkit-text-fill-color: transparent}
+[data-page-type="page"] .article-title{margin-bottom:20px}
+.article-description{margin-bottom:13px;margin-top:13px}
+.article-description p{margin:0;line-height:1.6;font-weight:500}
+.article-body{position:relative;word-break:break-word;line-height:1.6em}.post-body+.breadcrumbs{float:left;width:100%}
+.article-description>p,.article-body{font-family:"Oswald",sans-serif;color:#545454;font-size:14px;line-height:1.42857143}
+.article-description>p.font-increase,.article-body.font-increase{font-size:115%}
+.article-body h2,.article-body h3,.article-body h4,.article-body h5,.article-body h6{font-size:2em;font-weight:bold;cursor:default;text-transform:uppercase;color:#ff695d}
+.article-body a{color:#11d617}
+[data-view-type=desktop] .article-body a:hover,[data-view-type=desktop] .article-body a:focus,[data-view-type=desktop] .article-body a:active{text-decoration:underline;outline:none!important}
+.article-body a[target="_blank"]:after{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232b6dad' width='12' height='12' viewBox='0 0 48 48'%3E%3Cpath d='M38 38H10V10h14V6H10c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4V24h-4v14zM28 6v4h7.17L15.51 29.66l2.83 2.83L38 12.83V20h4V6H28z'/%3E%3C/svg%3E");content:"";display:inline-block;height:12px;margin-left:3px;position:relative;width:12px}
+.tr-caption-container>a,.separator>a{display:block}
+.tr-caption-container a:after,.separator a:after{content:unset!important}
+.article-body ol,.article-body ul:not(.chapter){margin-left:35px}
+.article-body ul:not(.chapter)>ul{margin:15px 0 15px 20px}.article-body ul:not(.chapter)>li{list-style-type:disc;margin: 5px}
+.article-body ul:not(.chapter)>ul>li{list-style-type:circle}.article-body ol li{list-style-type:decimal}
+.article-body img{max-width:100%;height:auto;display:block;margin:0 auto;-webkit-animation:fadeInImages 0.5s ease;animation:fadeInImages 0.5s ease}
+.article-body>div .code{background:#fafafa;display:block;position:relative;border:1px solid rgba(0,0,0,0.12);border-radius:4px;padding:15px; line-height:1.6em;font-size:inherit;white-space:normal}
+.tr-caption-container,.separator{position:relative;width:unset;clear:both!important;text-align:center!important}
+.article-body .separator.hide{display:none}
+.tr-caption{font-size:15px;color:#444;line-height:1.4;padding:10px 0;border-bottom:1px solid #e7e8ea}
+blockquote{margin:0;padding-left:15px;border-left:2px solid #03a9f4;font-family:"Oswald",sans-serif;font-size:1rem;font-style:italic}
+blockquote:before,blockquote:after{font-size:140%;vertical-align:sub}blockquote:before{content:'“'}blockquote:after{content:'”'}
+.box_tin{background:#E4F0F6;padding:15px;font-size:1rem}
+.box_tin li{list-style-type:none}.box_tin li>a{display:block;line-height:1.6em;color:#2d2d2d}
+.box_tin li>a:focus{outline:none!important}.box_tin li>a:hover,.box_tin li>a:focus,.box_tin li>a:active{color:#007bc7}
+.box_tin.category{margin:1.3rem 0}.box_tin.category ul{margin-top:10px}
+.box_tin.category p{font-size:1.3em}.box_tin.category p>label{font-size:14px;color:#2b6dad;vertical-align:middle}
+.box_tin.category p>label:after{content:'[Ẩn]'}.box_tin.category p>label.show:after{content:'[Hiện]'}
+.social-sharing-widgets{display:block;margin:20px 0;position:relative}
+.dd{display:inline-block;position:absolute;margin-left:10px}
+.dd>.drops{display:inline-block;padding:0 10px;background:#365899;color:#fff;font-size:11px;border-radius:3px;height:20px;line-height:20px;vertical-align:bottom;text-align:center}
+.print-email{float:right;display:inline-block}
+.contact-us,.print-this-page{width:27px;text-align:center;height:20px;line-height:20px;border-radius:3px}
+.print-this-page{background:#005A89;float:right}.contact-us{background:#2d2d2d;float:left;margin-right:3px}
+.hide\:screen{border:0!important;clip:rect(0 0 0 0)!important;height:1px!important;margin:-1px!important;overflow:hidden!important;padding:0!important;position:absolute!important;width:1px!important;white-space:nowrap!important}
+.print-this-page:before,.contact-us:before{height:16px;width:16px}
+.print-this-page:before{background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16px' viewBox='0 0 24 24' width='16px'%3E%3Cpath fill='%23fff' d='M16,17H7V10.5C7,8 9,6 11.5,6C14,6 16,8 16,10.5M18,16V10.5C18,7.43 15.86,4.86 13,4.18V3.5A1.5,1.5 0 0,0 11.5,2A1.5,1.5 0 0,0 10,3.5V4.18C7.13,4.86 5,7.43 5,10.5V16L3,18V19H20V18M11.5,22A2,2 0 0,0 13.5,20H9.5A2,2 0 0,0 11.5,22Z'%3E%3C/path%3E%3C/svg%3E")}
+.contact-us:before{background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='16px' viewBox='0 0 24 24' width='16px'%3E%3Cpath fill='%23fff' d='M22,3H2A2,2 0 0,0 0,5V19A2,2 0 0,0 2,21H22A2,2 0 0,0 24,19V5A2,2 0 0,0 22,3M22,19H2V5H22V19M21,6H14V11H21V6M20,8L17.5,9.75L15,8V7L17.5,8.75L20,7V8M9,12A3,3 0 0,0 12,9A3,3 0 0,0 9,6A3,3 0 0,0 6,9A3,3 0 0,0 9,12M9,8A1,1 0 0,1 10,9A1,1 0 0,1 9,10A1,1 0 0,1 8,9A1,1 0 0,1 9,8M15,16.59C15,14.09 11.03,13 9,13C6.97,13 3,14.09 3,16.59V18H15V16.59M5.5,16C6.22,15.5 7.7,15 9,15C10.3,15 11.77,15.5 12.5,16H5.5Z'%3E%3C/path%3E%3C/svg%3E")}
+#comments{background:#fff;float:left;width:100%;margin:0 auto;position:relative}
+.commentForm{background:#fafafa;display:-ms-flexbox;display:-webkit-flex;display:flex;border:1px solid rgba(0,0,0,0.12);border-radius:3px;padding:0 12px}
+#comments.threaded .commentForm{margin-bottom:20px}
+#comment-editor,.commentForm.loading{min-height:89.5px}
+.thread-locked-alert{background-color:#f2f6fb;margin:20px 0 0;padding:15px;position:relative;border:1px solid #dadce0;border-radius:3px;overflow-x:hidden}
+.comment{list-style-type:none;position:relative}
+.comment-replybox-single>.commentForm,.comment:not(:last-child),#comments .loadmore,#comments .showless,.calcel-reply{margin-bottom:15px}
+.comment>.avatar-image-container{position:absolute;height:35px;width:35px}
+.comment-replies .avatar-image-container{height:30px;width:30px}
+.comment .avatar-image-container img{border-radius:50%;height:100%;width:100%}
+.avatar-image-container img{background:url(//1.bp.blogspot.com/-lCIhJITKkBg/X4VL6xd0aDI/AAAAAAAACwY/1KZS68Z8obs23O_Ylw13dVJKpTA3zBfzwCLcBGAsYHQ/s0/no-image.webp) no-repeat center}
+.avatar-image-container span{bottom:15px;position:absolute;right:-6px;display:inline-block;height:15px;width:15px}
+.avatar-image-container svg{height:15px;width:15px}
+.comment-replies .avatar-image-container span{bottom:13px}
+.comment-replies .avatar-image-container svg{width:13px;height:13px}
+.comment .comment-block{margin:0 0 0 45px}
+.comment-replies .comment-block{margin:0 0 0 40px}
+.comment .comment-replies{margin:15px 0 0 40px}
+.comment .view-replies{margin:10px 0 0 45px}
+.comment .view-replies>span{font-size:15px;font-weight:bolder;color:#1a73e8}
+.comment .comment-replybox-single{margin:15px 0 0 45px}
+.comment .comment-header>.user{font-style:normal;font-weight:normal}
+.comment .comment-header>.user,.comment .comment-header>span a{color:#1a73e8}
+.comment .comment-header>span{line-height:1.4}
+.comment .comment-actions{display:flex;align-items:center;font-size:12px;font-weight:normal;text-transform:uppercase;position:relative;padding-top:5px}
+.comment .comment-actions a{color:rgba(0,0,0,0.87);opacity:.8}
+.comment .continue{display:none}
+.comment .continue a.comment-reply{font-size:13px;color:rgba(0,0,0,0.87);text-transform:uppercase}
+.comment .comment-actions a.comment-reply,.comment .comment-actions span.blog-admin{padding-right:10px}
+.postAComment{margin-bottom:20px;font-weight:500}
+.comment-form.spinner{height:93px}
+.comments .comments-content .loadmore.loaded{max-height:0;opacity:0;overflow:hidden}
+#comments .loadmore>a,#comments .showless>a{color:rgba(0,0,0,0.87)}
+.comment-thread.inline-thread.hidden{display:block}
+.RelatedPosts{padding-top:20px}
