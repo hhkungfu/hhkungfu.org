@@ -96,3 +96,4 @@
 .dark .mode::before{top:0;left:0;transform:rotate(45deg)}
 .mode::after{top:-3px;left:7px}
 .dark .mode::after{top:1px;left:1px;width:14px;height:14px}
+.dark #RandomPosts {background:#3c4043}
