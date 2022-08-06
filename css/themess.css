@@ -162,6 +162,7 @@ main.main>.widget,aside.sidebar>.widget{background:#fff;float:left;width:100%;pa
 [data-box-shadow="false"][data-layout="list"] .post_body{padding-left:5px;text-align:center;height:40px}
 [data-box-shadow="false"][data-layout="list"] .post{display:block;width:25%;box-sizing:border-box;padding:0 10px;margin:0 0 20px}
 #RandomPosts > [data-box-shadow="false"][data-layout="list"] .post {width:50%}
+#RandomPosts > [data-box-shadow="false"] .post_thumb{height:200px}
 }
 [data-box-shadow="true"][data-layout="blog"] .post,[data-box-shadow="true"][data-layout="list"] .post{margin-bottom:15px}
 .sidebar [data-box-shadow="false"][data-layout="list"] .post:last-child,.RecentPosts [data-box-shadow="false"][data-layout="list"] .post:last-child{margin:0;padding:0;border:0}
