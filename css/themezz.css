@@ -17,7 +17,7 @@ iframe,img{border:none}iframe{width:100%}img{max-width:100%;height:auto}
 .container .sidebar .PopularPosts .widget-content .post div .post_thumb{height:200px}
 .container .flexbox .SidebarTop .PopularPosts .widget-content .post{width:20%}
 .container .flexbox .SidebarTop .PopularPosts {padding:10px 15px 0 15px}
-.PopularPosts1,#RandomPosts,.widget.has-banner.desktop,.widget.has-banner.mobile,#comments{display:none}
+.PopularPosts1,#RandomPosts,.widget.has-banner.desktop,.widget.has-banner.mobile,#comments{display:n0ne}
 .table tr td:first-child, .lichphim tr td:first-child {width:120px;font-weight:bold;color:#15c60e}
 .phim{width:100%;max-width:100%;border-collapse:collapse}
 .phim tbody tr:nth-child(2n+1) td, .phim tbody tr:nth-child(2n+1) th {padding:10px 20px;background-color:#282828}
