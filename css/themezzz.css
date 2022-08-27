@@ -102,7 +102,7 @@ div > div.colfr > a > span {
 .hidden,span.blog-admin,[data-allow-comments="false"] a.comment-reply,.modal--target{display:none}
 .relative{position:relative}.absolute{position:absolute}.fixed{position:fixed}
 .left{left:0}.right{right:0}.float-left{float:left;width:100%}.float-right{float:right}.w100{width:100%;margin-top:20px}
-main.main>.widget,aside.sidebar>.widget{background:#fff;float:left;width:100%;padding:15px}.overflow{overflow:hidden}.overflow-x{overflow-x:auto}
+main.main>.widget,aside.sidebar>.widget{background:rgb(255 255 255 / 0%);float:left;width:100%;padding:5px}.overflow{overflow:hidden}.overflow-x{overflow-x:auto}
 .overflow-y{overflow-y:auto}.text-left{text-align:left}.text-right{text-lign:right}.text-center{text-align:center}
 .container{max-width:1400px;margin:0 auto}
 .header{position:fixed;left:0;right:0;top:0;z-index:999;background:#fff;box-shadow:0 3px 5px 0 rgba(0,0,0,.1)}
